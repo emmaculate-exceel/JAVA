@@ -30,7 +30,7 @@ public class Customer{
 		this.Performer;
 	}
 
-	public static Film(String Manufacturer, String Title, String ProductNumber, String Director) {
+	public class Film(String Manufacturer, String Title, String ProductNumber, String Director) {
 		this.Manufacturer;
 		this.Title;
 		this.ProductNumber;
