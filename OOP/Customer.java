@@ -1,43 +1,26 @@
-public class Customer{
-	// (Attributes)
-	String Manufacturer;
-	String Title;
-	String ProductNumber;
-	String Author;
-	String Performer;
-	String Director;
+// Customer class Declaration 
+public class Customer {
+	// Customer attributes
+	private String lastname;
+	private String firstname;
+	private String sex;
+	private String birthdate;
 
-	// (Constructor)
-
-	public static Book(String Manufacturer, String Title, String ProductNumber, String Author) {
-		this.Manufacturer;
-		this.Title;
-		this.ProductNumber;
-		this.Author;
+	// Customer methods
+	public String getLastname() { //(public->(visiblity)) (String->(return data type)) (getLastname->(method name)) (()->(parameter list)) ({}->(begining and end of method body))
+		return lastname; // return type
 	}
 
-	public static Music(String Manufacturer, String Title, String ProductNumber, String Performer){
-		this.Manufacturer;
-		this.Title;
-		this.ProductNumber;
-		this.Performer;
+	public String getFirstname() {
+		return firstname;
 	}
 
-	public static Game(String Manufacturer, String Title, String ProductNumber, String Author) {
-		this.Manufacturer;
-		this.Title;
-		this.ProductNumber;
-		this.Performer;
+	public String getSex() {
+		return sex;
 	}
 
-	public class Film(String Manufacturer, String Title, String ProductNumber, String Director) {
-		this.Manufacturer;
-		this.Title;
-		this.ProductNumber;
-		this.Director;
+	public String getBirthdate() {
+		return birthdate;
 	}
 
-	public void main(String[] args) {
-		System.out.println();
-	}
 }
