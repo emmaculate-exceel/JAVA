@@ -45,4 +45,5 @@ class public OnlineShop {
 		customer2.getFistname("Esther");
 
 		System.out.println(customer2.getLastname);
-		
+	}
+}
